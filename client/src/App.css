@@ -1,0 +1,96 @@
+.login__page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+form[name="login_form"] {
+  box-shadow: 0px 1px 6px 0 #0000005c;
+  padding: 10px 40px;
+}
+
+.form_button {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.main__page {
+  text-align: center;
+}
+
+.posts__page {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.main__page-img {
+  overflow: hidden;
+  height: 220px;
+}
+
+.main__page-post {
+  width: 30%;
+  margin: 10px;
+  box-shadow: 0 0 7px 0px #000;
+}
+
+.main__page-title{
+  overflow: hidden;
+}
+
+.main__page-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .4s;
+}
+
+.main__page-poster:hover {
+  transform: scale(1.1);
+}
+
+.main__page-title a {
+  color: #29363c;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.detail__page {
+  text-align: center;
+}
+
+.detail__page-poster {
+  height: 450px;
+  width: auto;
+  object-fit: contain;
+}
+
+.detail__page-poster img {
+  height: 100%;
+  width: auto;
+}
+
+.detail__page-text {
+  width: 80%;
+  text-align: left;
+  font-family: inherit;
+  margin: 50px auto;
+}
+
+.back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.back a {
+  text-decoration: none;
+  color: #5a7683;
+  display: flex;
+}
